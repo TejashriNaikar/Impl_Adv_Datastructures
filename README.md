@@ -9,7 +9,7 @@ import java.util.TreeMap;
  * @author txn141130
  *
  */
-public class txn141130_P6 {
+public class MultiDimensionalSearch {
 	
 	//RedBlack tree, using this to save the items
 	static Map<Long, txn141130_P6_Product> items = new TreeMap<Long, txn141130_P6_Product>();
@@ -433,7 +433,6 @@ public class txn141130_P6 {
 		System.out.println(new BigDecimal(operationOutput).divide(new BigDecimal(100)));
 	}
 }
-
 
 /**
  * This is the class which will hold the information a item. For every item, an object
